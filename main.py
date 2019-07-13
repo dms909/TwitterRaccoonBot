@@ -19,5 +19,5 @@ starttime = time.time()
 
 while True:
     rand_num = random.randint(1, 48)
-    api.update_with_media('Images/raccoon' + str(rand_num) + '.JPG')
+    api.update_with_media('Images/raccoon' + str(rand_num) + '.jpg')
     time.sleep(3600.0 - ((time.time() - starttime) % 3600.0))
